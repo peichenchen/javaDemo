@@ -1,4 +1,4 @@
-package com.pcc.test;
+package com.pcc;
 
 import com.google.common.base.Stopwatch;
 
