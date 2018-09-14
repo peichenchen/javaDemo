@@ -6,9 +6,9 @@ package com.pcc.sort;
  */
 public class BubbleSort {
 
-    public int[] sort(int[] datas) {
+    public Integer[] sort(Integer[] datas) {
 
-        for (int i = datas.length; i > 0; i--) {
+        for (int i = datas.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (datas[j] > datas[j + 1]) {
                     int temp = datas[j];
