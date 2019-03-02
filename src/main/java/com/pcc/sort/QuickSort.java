@@ -3,6 +3,8 @@ package com.pcc.sort;
 import java.util.Arrays;
 
 /**
+ * https://blog.csdn.net/adusts/article/details/80882649
+ *
  * @author peichenchen
  * @date 2019/03/02
  */
@@ -29,6 +31,7 @@ public class QuickSort {
 
         while (i < j) {
 
+            // 由于枢值选取的是左边第一个，先从右边往左找
             while (arr[j] >= base && i < j) {
                 j--;
             }
