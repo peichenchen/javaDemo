@@ -41,7 +41,8 @@ public class BinarySearch {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
-            int mid = (end + start) / 2;
+            //相当于除以2
+            int mid = (end + start) >> 1;
             int midValue = arr[mid];
             if (midValue == target) {
                 return mid;
@@ -64,7 +65,8 @@ public class BinarySearch {
             return -1;
         }
 
-        int mid = (end + start) / 2;
+        //相当于除以2
+        int mid = (end + start) >> 1;
         int midValue = arr[mid];
         if (midValue == target) {
             return mid;
