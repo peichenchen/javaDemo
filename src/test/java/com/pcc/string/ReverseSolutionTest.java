@@ -1,6 +1,6 @@
 package com.pcc.string;
 
-import com.pcc.array.ReverseSolution;
+import com.pcc.lc.array.ReverseSolution;
 import org.junit.Assert;
 import org.junit.Test;
 

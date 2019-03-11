@@ -1,4 +1,4 @@
-package com.pcc.sort;
+package com.pcc.lc.sort;
 
 /**
  * @author peichenchen

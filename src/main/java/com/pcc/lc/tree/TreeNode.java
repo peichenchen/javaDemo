@@ -1,4 +1,4 @@
-package com.pcc.tree;
+package com.pcc.lc.tree;
 
 /**
  * @author peichenchen

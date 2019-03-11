@@ -1,4 +1,4 @@
-package com.pcc.search;
+package com.pcc.lc.search;
 
 /**
  * 二分查找的2中实现，递归和非递归

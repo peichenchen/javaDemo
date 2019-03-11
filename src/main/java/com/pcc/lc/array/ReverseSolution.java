@@ -1,4 +1,4 @@
-package com.pcc.array;
+package com.pcc.lc.array;
 
 /**
  * 反转数组

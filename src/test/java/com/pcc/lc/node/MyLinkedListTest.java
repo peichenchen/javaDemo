@@ -1,4 +1,4 @@
-package com.pcc.node;
+package com.pcc.lc.node;
 
 import org.junit.Assert;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.pcc.tree;
+package com.pcc.lc.tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -82,4 +82,32 @@ public class Solution {
 
         return results;
     }
+
+
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int answer = 1;
+
+        maxDepth(root.left, answer + 1);
+
+        return 0;
+
+    }
+
+    private int maxDepth(TreeNode node, int curDepth) {
+        if (node.left != null) {
+            maxDepth(node.left, curDepth + 1);
+        }
+
+        if (node.right != null) {
+            maxDepth(node.right, curDepth + 1);
+        }
+
+
+
+        return curDepth;
+    }
+
 }
