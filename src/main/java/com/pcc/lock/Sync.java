@@ -1,4 +1,4 @@
-package com.pcc.sync;
+package com.pcc.lock;
 
 /**
  * @author peichenchen

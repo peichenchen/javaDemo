@@ -1,4 +1,4 @@
-package com.pcc.sync;
+package com.pcc.lock;
 
 /**
  * @author peichenchen
@@ -24,7 +24,7 @@ public class SyncTest {
         @Override
         public void run() {
             try {
-                sync.method2();
+                Sync.staticMethod1();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
